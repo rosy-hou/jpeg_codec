@@ -118,7 +118,8 @@ void active_JPEG_dec(string path_dep, string path_des, string fmt)
 	free(yuv_Y);
 	free(yuv_U);
 	free(yuv_V);
-	cout << " [info]all procedure finished successfully.\n > Congrats! <";
+	cout << " [info]all procedure finished successfully.\n > Congrats! <" << endl;
+	cout << "test" <<endl;
 	return;
 }
 
